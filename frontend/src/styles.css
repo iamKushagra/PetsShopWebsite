@@ -1,0 +1,175 @@
+/* Nav items */
+.menu-bar{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.layout-container{
+  width: 100%;
+  position: relative;
+  top: 30px;
+  
+}
+
+.cart-badge{
+  padding: 5px;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 50%;
+  display: inline-block;  
+  height: 20px;
+  width: 20px;    
+  font-weight: bolder;
+}
+
+.cart-badge small{
+  /* position: relative;
+  color: orangered;
+  font-weight: bolder;
+  font-size: 15px;
+  left: -4px; */
+  /* position: absolute;
+  top: 4px;
+  right: 0;
+  color: white;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  line-height: 18px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer */
+  background: red;
+  border-radius: 16px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 0px;
+  padding: 0 9px;
+}
+
+
+
+
+/* 
+ border radius
+*/
+
+.btn, .jumbotron, .nav :hover{
+  border-radius: 0px;
+}
+
+.product-img{
+  min-height: 100px;
+}
+
+/** 
+ * single product page - product name 
+*/
+
+.name{
+  background: indigo;
+  border: indigo;
+  color: white;
+  font-weight: bold;
+}
+
+.in_cart_item{
+  background: #00DD55;
+  color: black;
+  font-weight: bold;
+}
+
+
+/* CARDS */
+.card-body p{
+  padding: 10px;
+  
+}
+
+/* black shade form 10-1 */
+.black-10 {
+  background: #f2f2f2;
+}
+.black-9 {
+  background: #e6e6e6;
+}
+.black-8 {
+  background: #d9d9d9;
+}
+.black-7 {
+  background: #cccccc;
+}
+.black-6 {
+  background: #bfbfbf;
+}
+.black-5 {
+  background: #b3b3b3;
+}
+
+/** 
+ * jumbotron animation
+*/
+
+.jumbotron h2{
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px){
+  .jumbotron h2{
+    margin-top: 10px;
+  }
+}
+
+.jumbotron {
+  width: 30wh;
+  height: 30vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
